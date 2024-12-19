@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="text-xl text-gray-600 p-10 pb-20">
-        Copyright <b>©</b> {new Date().getFullYear()} Akshay. All Rights
+        Copyright <b>©</b> <span className="hover:text-gray-400">{new Date().getFullYear()} Akshay</span> . All Rights
         Reserved
       </div>
     </div>
