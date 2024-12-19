@@ -11,43 +11,43 @@ const Experience = () => {
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">HTML</div>
-              <div className="text-gray-600 text-sm sm:text-md font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm font-bold">HTML</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">CSS</div>
-              <div className="text-gray-600 text-sm sm:text-md  font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">CSS</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">JAVASCRIPT</div>
-              <div className="text-gray-600 text-sm sm:text-md font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">JAVASCRIPT</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">REACT JS</div>
-              <div className="text-gray-600 text-sm sm:text-md  font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">REACT JS</div>
+              <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">NEXT JS</div>
-              <div className="text-gray-600 text-sm sm:text-md font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">NEXT JS</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">WORDPRESS</div>
-              <div className="text-gray-600 text-sm sm:text-md  font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">WORDPRESS</div>
+              <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Intermediate</div>
             </div>
           </div>
         
@@ -61,43 +61,43 @@ const Experience = () => {
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">REACT JS</div>
-              <div className="text-gray-600 text-sm sm:text-md font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">REACT JS</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">JSON</div>
-              <div className="text-gray-600 text-sm sm:text-md  font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">JSON</div>
+              <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">SQL</div>
-              <div className="text-gray-600 text-sm sm:text-md font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm font-bold">SQL</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">LARAVEL</div>
-              <div className="text-gray-600 text-sm sm:text-md  font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">LARAVEL</div>
+              <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">MONGO DB</div>
-              <div className="text-gray-600 text-sm sm:text-md font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">MONGO DB</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-md font-bold">EXPRESS JS</div>
-              <div className="text-gray-600 text-sm sm:text-md  font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm font-bold">EXPRESS JS</div>
+              <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Intermediate</div>
             </div>
           </div>
         

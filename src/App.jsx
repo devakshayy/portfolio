@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -10,77 +11,13 @@ function App() {
        <Header/>
        <About/>
        <Experience/>
+       <Projects/>
      </>
   );
 }
 
 export default App;
 
-//       {/* Projects */}
-//       <div className="p-32 text-center">
-//         <div className="text-gray-500 text-lg">Browse my recent</div>
-//         <div className="text-gray-900 text-5xl font-bold">Projects</div>
-//         <div className="grid grid-cols-3 py-10 gap-10">
-//           <div className="ring-1 rounded-3xl p-10 flex gap-10 flex-col">
-//             <img src="/project-1.png" alt="project-1" className="rounded-3xl" />
-//             <div className="text-gray-900 text-4xl font-bold">Project One</div>
-//             <div className="grid px-10 grid-cols-2 space-x-5">
-//               <button
-//                 className="ring-1 rounded-full p-4 text-xl hover:text-white
-//                             hover:bg-gray-800 transition "
-//               >
-//                 Github
-//               </button>
-//               <button
-//                 className="ring-1 rounded-full p-4 text-xl hover:text-white
-//                             hover:bg-gray-800 transition "
-//               >
-//                 Live Demo
-//               </button>
-//             </div>
-//           </div>
-
-//           <div className="ring-1 rounded-3xl p-10 flex gap-10 flex-col">
-//             <img src="/project-2.png" alt="project-2" className="rounded-3xl" />
-//             <div className="text-gray-900 text-4xl font-bold">Project Two</div>
-//             <div className="grid px-10 grid-cols-2 space-x-5">
-//               <button
-//                 className="ring-1 rounded-full p-4 text-xl hover:text-white
-//                             hover:bg-gray-800 transition "
-//               >
-//                 Github
-//               </button>
-//               <button
-//                 className="ring-1 rounded-full p-4 text-xl hover:text-white
-//                             hover:bg-gray-800 transition "
-//               >
-//                 Live Demo
-//               </button>
-//             </div>
-//           </div>
-
-//           <div className="ring-1 rounded-3xl p-10 flex gap-10 flex-col">
-//             <img src="/project-3.png" alt="project-3" className="rounded-3xl" />
-//             <div className="text-gray-900 text-4xl font-bold">
-//               Project Three
-//             </div>
-//             <div className="grid px-10 grid-cols-2 space-x-5">
-//               <button
-//                 className="ring-1 rounded-full p-4 text-xl hover:text-white
-//                             hover:bg-gray-800 transition "
-//               >
-//                 Github
-//               </button>
-//               <button
-//                 className="ring-1 rounded-full p-4 text-xl hover:text-white
-//                             hover:bg-gray-800 transition "
-//               >
-//                 Live Demo
-//               </button>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
 
 //       {/* Projects */}
 
