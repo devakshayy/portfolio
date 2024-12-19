@@ -7,13 +7,13 @@ const About = () => {
       <img src="/about-pic.png" className="lg:h-[400px] rounded-3xl" />
       <div className=" py-10 flex flex-col gap-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-          <div className="ring-1 rounded-lg p-10 flex flex-col gap-3 justify-center items-center">
+          <div className=" card-hover rounded-3xl p-10 flex flex-col gap-3 justify-center items-center">
             <img src="/education.png" className="h-16 sm:h-20" />
             <div className="text-3xl font-bold text-gray-900">Education</div>
             <div className="text-xl font-semibold text-gray-600">3 Years Diploma</div>
             <div className="text-md font-semibold text-gray-600">Frontend Development</div>
           </div>
-          <div className="ring-1 rounded-lg p-10 flex flex-col gap-3 justify-center items-center">
+          <div className="card-hover rounded-3xl p-10 flex flex-col gap-3 justify-center items-center">
             <img src="/experience.png" className="h-16 sm:h-20" />
             <div className="text-3xl font-bold text-gray-900">Experience</div>
             <div className="text-xl font-semibold text-gray-600">6 Years +</div>
@@ -30,3 +30,5 @@ const About = () => {
 }
 
 export default About
+
+

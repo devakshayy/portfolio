@@ -4,7 +4,7 @@ const Experience = () => {
     <div className="text-gray-500 text-lg">Explore My</div>
     <div className="text-gray-900  text-3xl sm:text-5xl font-bold">Experience</div>
     <div className="grid grid-cols-1 lg:grid-cols-2 space-y-10 lg:space-y-0 lg:space-x-10 py-10">
-      <div className="ring-1 p-1 py-4 sm:p-10 sm:py-18 rounded-3xl  ">
+      <div className="card-hover p-1 py-4 sm:p-10 sm:py-18 rounded-3xl  ">
         <div className="text-gray-900 text-2xl sm:text-3xl mb-4 font-bold">Frontend Development</div>
         <div className="grid grid-cols-2 lg:grid-cols-3 justify-items-center lg:gap-2 items-center"> 
 
@@ -54,7 +54,7 @@ const Experience = () => {
         </div>
 
       </div>
-      <div className="ring-1 p-1 py-4 sm:p-10 sm:py-18 rounded-3xl  ">
+      <div className="card-hover p-1 py-4 sm:p-10 sm:py-18 rounded-3xl  ">
         <div className="text-gray-900 text-2xl sm:text-3xl mb-4 font-bold">Backend Development</div>
         <div className="grid grid-cols-2 lg:grid-cols-3 justify-items-center lg:gap-2 items-center"> 
 

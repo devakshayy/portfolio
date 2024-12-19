@@ -12,7 +12,7 @@ const Header = () => {
           </div>
           <div className="flex gap-2 sm:gap-3">
             <button
-              className="ring-1 p-2 sm:p-3 rounded-full px-2 sm:px-6 hover:bg-gray-800
+              className="card-hover p-2 sm:p-3 rounded-full px-2 sm:px-6 hover:bg-gray-800
                              text-sm  sm:text-lg     hover:text-white transtition duration-300"
             >
               Download CV

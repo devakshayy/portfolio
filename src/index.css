@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .card-hover {
+        @apply bg-white relative shadow-lg overflow-hidden transform 
+        transition-transform duration-300 hover:scale-102 hover:shadow-2xl
+    }
+    .project-btn {
+        @apply shadow-md rounded-2xl p-2 text-sm sm:text-xl text-gray-900
+        bg-[#c7c7c7] hover:text-white transition
+    }
+}
+ 

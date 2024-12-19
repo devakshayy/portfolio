@@ -7,14 +7,14 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-     <>
-       <Navbar/>
-       <Header/>
-       <About/>
-       <Experience/>
-       <Projects/>
-       <Contact/>
-     </>
+    <main className="bg-[#f5f5f7]">
+      <Navbar />
+      <Header />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+    </main>
   );
 }
 
