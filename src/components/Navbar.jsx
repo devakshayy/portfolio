@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="p-4 lg:p-6 flex justify-between items-center ">
-       <a href="/"><h1 className=" text-xl lg:text-5xl font-bold">Akshay</h1></a>
+       <a href="/"><h1 className=" text-2xl lg:text-5xl font-bold">Akshay</h1></a>
       <ul className="lg:flex hidden gap-6">
         <a href="/" className="text-xl transition hover:text-red-700">
           HOME
@@ -23,7 +23,7 @@ const Navbar = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-7 h-7"
         >
           <path
             strokeLinecap="round"
