@@ -9,15 +9,15 @@ const Contact = () => {
       </div>
       <div className="bg-white shadow-2xl rounded-3xl p-4 lg:p-16 flex flex-col lg:flex-row lg:justify-between sm:gap-8 gap-8 items-start">
         <div className="flex items-center">
-          <img src="/email.png" alt="email" className="h-4 sm:h-11" />
-          <div className="text-sm sm:text-2xl font-semibold hover:text-red-700 transition">
+          <img src="/email.png" alt="email" className="h-8 sm:h-11" />
+          <div className="text-lg sm:text-2xl font-semibold hover:text-red-700 transition">
             devakshay916@gmail.com
           </div>
         </div>
 
         <div className="flex items-center">
-          <img src="/email.png" alt="email" className="h-4 sm:h-11" />
-          <div className="text-sm sm:text-2xl font-semibold hover:text-red-700 transition">
+          <img src="/email.png" alt="email" className="h-8 sm:h-11" />
+          <div className="text-lg sm:text-2xl font-semibold hover:text-red-700 transition">
             linkedin
           </div>
         </div>
@@ -27,7 +27,7 @@ const Contact = () => {
         <div className="flex items-center justify-center gap-4 lg:gap-12">
           <div className="group">
               <svg
-                className="hover:text-white group-hover:fill-current group-hover:text-gray-600"
+                className="hover:text-white group-hover:fill-current w-6 lg:w-10 group-hover:text-gray-600"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -40,7 +40,7 @@ const Contact = () => {
         </div>
         <div className="group">
              <svg 
-               className="hover:text-white group-hover:fill-current group-hover:text-gray-600"
+               className="hover:text-white group-hover:fill-current w-6 lg:w-10 group-hover:text-gray-600"
                xmlns="http://www.w3.org/2000/svg"
                x="0px" 
                y="0px" 
@@ -53,7 +53,7 @@ const Contact = () => {
          </div>
          <div className="group">
          <svg 
-            className="hover:text-white group-hover:fill-current group-hover:text-gray-600"
+            className="hover:text-white group-hover:fill-current w-6 lg:w-10 group-hover:text-gray-600"
             xmlns="http://www.w3.org/2000/svg"
             x="0px" 
             y="0px" 
