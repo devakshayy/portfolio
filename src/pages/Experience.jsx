@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div className="experience text-center p-5 lg:p-10 gap-5 lg:gap-10 " id="experience">
+    <div className="experience text-center p-6 lg:p-10 gap-5 lg:gap-10 " id="experience">
     <div className="text-gray-500 text-lg">Explore My</div>
     <div className="text-gray-900  text-3xl sm:text-5xl font-bold">Experience</div>
     <div className="grid grid-cols-1 lg:grid-cols-2 space-y-10 lg:space-y-0 lg:space-x-10 py-10">
@@ -12,21 +12,21 @@ const Experience = () => {
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
               <div className="text-gray-900 text-sm font-bold">HTML</div>
-              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Experienced</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
               <div className="text-gray-900 text-sm  font-bold">CSS</div>
-              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Experienced</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
               <div className="text-gray-900 text-sm  font-bold">JAVASCRIPT</div>
-              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Basic</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
@@ -47,7 +47,7 @@ const Experience = () => {
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
               <div className="text-gray-900 text-sm  font-bold">TYPESCRIPT</div>
-              <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Intermediate</div>
+              <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Basic</div>
             </div>
           </div>
         
@@ -61,8 +61,8 @@ const Experience = () => {
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-sm  font-bold">REACT JS</div>
-              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
+              <div className="text-gray-900 text-sm  font-bold">POSTGRESQL</div>
+              <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Basic</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
@@ -75,14 +75,14 @@ const Experience = () => {
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-sm font-bold">SQL</div>
+              <div className="text-gray-900 text-sm font-bold">GIT</div>
               <div className="text-gray-500 text-xs  sm:text-sm font-semibold">Intermediate</div>
             </div>
           </div>
           <div className="flex justify-between  items-center gap-3 p-5">
             <div className="flex flex-col justify-center items-center">
             <img src="/checkmark.png" className="h-10" />
-              <div className="text-gray-900 text-sm  font-bold">LARAVEL</div>
+              <div className="text-gray-900 text-sm  font-bold">NODE JS</div>
               <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">Intermediate</div>
             </div>
           </div>
