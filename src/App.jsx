@@ -7,7 +7,7 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <main className="bg-[#f5f5f7]">
+    <main className="bg-[#f5f5f7] dark:bg-gray-700 ">
       <Navbar />
       <Header />
       <About />
