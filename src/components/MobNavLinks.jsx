@@ -5,7 +5,7 @@ const MobNavLinks = ({ closeNav }) => {
     <div className="Navcard-container">
       <ul className="Navcard-ul">
         <li>
-          <a href="/" onClick={closeNav} className="links">
+          <a href="#" onClick={closeNav} className="links">
             HOME
           </a>
         </li>
