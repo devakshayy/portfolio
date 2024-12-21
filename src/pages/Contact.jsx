@@ -1,8 +1,13 @@
 import React from "react";
 
 const Contact = () => {
+
+   const topScroll = () => {
+    window.scrollTo({top:0,left:0, behavior: "smooth"});
+   }
+
   return (
-    <div className="about sm:p-10 text-center space-y-6 p-4" id="contact">
+    <div className="about sm:p-10 text-center space-y-6 p-4 relative"  id="contact">
       <div className="text-gray-500 text-lg dark:text-gray-400">to</div>
       <div className="text-gray-900 dark:text-gray-200 text-3xl sm:text-5xl font-bold">
         Contact
@@ -87,6 +92,25 @@ const Contact = () => {
         </span>{" "}
         . All Rights Reserved
         </div>
+        <button onClick={topScroll} className="right-6 lg:bottom-[125px] lg:right-10 bottom-14 cursor-pointer 
+                                   absolute z-50 rounded-full ring-1 p-[2px] dark:text-white
+                                      shadow-current animate-bounce hover:bg-slate-400 dark:hover:bg-slate-900
+                                    ">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="size-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"
+            />
+          </svg>
+        </button>
       </div>
     </div>
   );
