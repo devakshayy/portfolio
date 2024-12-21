@@ -46,7 +46,7 @@ const Navbar = ({dark,setDark}) => {
           </a>
         </li>
       </ul>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
       {dark ? (
           <button onClick={darkModeHandler} >
             <RiMoonFill className="w-6 h-6"/>
