@@ -1,6 +1,6 @@
 const Header = ({ dark }) => {
   return (
-    <header className="grid grid-cols-1 p-10 lg:grid-cols-2">
+    <header className="grid grid-cols-1 p-4 lg:grid-cols-2">
       <div className="sm:py-4 py-3 lg:px-20 md:px-15 flex justify-center items-center">
         <img
           src="/myProfile1.png"
@@ -8,7 +8,7 @@ const Header = ({ dark }) => {
           className="h-[200px] bg-[#d5d7df] dark:bg-gray-500  shadow-2xl lg:h-[460px] rounded-full"
         />
       </div>
-      <div className="sm:p-10 flex justify-center items-center flex-col gap-3 sm:gap-5">
+      <div className="sm:p-10 flex justify-center items-center flex-col gap-5 sm:gap-5">
         <div className="sm:text-3xl text-lg font-bold text-gray-700 dark:text-gray-400">
           Hi I'm
         </div>

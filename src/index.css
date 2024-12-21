@@ -18,7 +18,7 @@
     }
     /* mobileNavLinks */
     .Navcard-container {
-        @apply absolute px-12 py-6 right-0 top-14 backdrop-blur-lg 
+        @apply absolute px-14 py-6 right-0 top-14 backdrop-blur-lg 
         h-screen z-10 w-screen
     }
     .Navcard-ul {
