@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="text-gray-900 dark:text-gray-200 text-3xl sm:text-5xl font-bold">
         Contact
       </div>
-      <div className="bg-white dark:bg-gray-200 shadow-2xl rounded-3xl p-4 lg:p-16 flex flex-col lg:flex-row lg:justify-between sm:gap-8 gap-8 items-start">
+      <div className="bg-white dark:bg-gray-300 shadow-2xl rounded-3xl p-4 lg:p-16 flex flex-col lg:flex-row lg:justify-between sm:gap-8 gap-8 items-start">
         <a 
           href="mailto:devakshay916@gmail.com"
           className="no-underline"
@@ -80,7 +80,7 @@ const Contact = () => {
         </a>
         </div>
 
-        <div className="dark:text-gray-200">
+        <div className="dark:text-gray-400">
         Copyright <b>©</b>{" "}
         <span className="hover:text-gray-400 dark:hover:text-gray-500 ">
           {new Date().getFullYear()} Akshay

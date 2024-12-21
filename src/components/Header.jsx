@@ -1,6 +1,6 @@
 const Header = ({ dark }) => {
   return (
-    <header className="grid grid-cols-1 p-6 lg:grid-cols-2">
+    <header className="grid grid-cols-1 p-10 lg:grid-cols-2">
       <div className="sm:py-4 py-3 lg:px-20 md:px-15 flex justify-center items-center">
         <img
           src="/myProfile1.png"
@@ -27,7 +27,7 @@ const Header = ({ dark }) => {
             <button
               className="card-hover p-2 sm:p-3 rounded-full px-2 sm:px-6 hover:bg-gray-800
                              text-sm  sm:text-lg     hover:text-white transtition duration-300
-                             dark:bg-gray-600 dark:text-gray-100 dark:hover:bg-gray-100 dark:hover:text-gray-900
+                             dark:bg-gray-600 dark:text-gray-100 dark:hover:bg-gray-200 dark:hover:text-gray-900
                              "
             >
               Download CV

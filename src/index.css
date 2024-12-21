@@ -22,11 +22,11 @@
         h-screen z-10 w-screen
     }
     .Navcard-ul {
-        @apply flex flex-col gap-8 items-end 
+        @apply flex flex-col gap-12 items-end 
         transition-all duration-300 ease-in-out
     }
     .links {
-        @apply text-sm text-gray-900 
+        @apply text-lg text-gray-900 
          transition  hover:text-red-700
     }
 }

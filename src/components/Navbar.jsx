@@ -59,7 +59,7 @@ const Navbar = ({dark,setDark}) => {
       {open ? (
         <button
         onClick={toggleNavbar}
-        className="block lg:hidden hover:bg-gray-100 p-1 rounded-full"
+        className="block lg:hidden hover:bg-gray-200 dark:hover:bg-gray-500 p-1 rounded-full"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const Navbar = ({dark,setDark}) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-7 h-7"
+          className="w-8 h-8"
         >
           <path
             strokeLinecap="round"
@@ -79,7 +79,7 @@ const Navbar = ({dark,setDark}) => {
       ) : (
         <button
           onClick={toggleNavbar}
-          className="block lg:hidden hover:bg-gray-100 p-1 rounded-full"
+          className="block lg:hidden hover:bg-gray-200 dark:hover:bg-gray-500 p-1 rounded-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Navbar = ({dark,setDark}) => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-7 h-7"
+            className="w-8 h-8"
           >
             <path
               strokeLinecap="round"
