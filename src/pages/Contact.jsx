@@ -3,11 +3,11 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="about sm:p-10 text-center space-y-6 p-4" id="contact">
-      <div className="text-gray-500 text-lg">to</div>
-      <div className="text-gray-900  text-3xl sm:text-5xl font-bold">
+      <div className="text-gray-500 text-lg dark:text-gray-400">to</div>
+      <div className="text-gray-900 dark:text-gray-200 text-3xl sm:text-5xl font-bold">
         Contact
       </div>
-      <div className="bg-white shadow-2xl rounded-3xl p-4 lg:p-16 flex flex-col lg:flex-row lg:justify-between sm:gap-8 gap-8 items-start">
+      <div className="bg-white dark:bg-gray-200 shadow-2xl rounded-3xl p-4 lg:p-16 flex flex-col lg:flex-row lg:justify-between sm:gap-8 gap-8 items-start">
         <a 
           href="mailto:devakshay916@gmail.com"
           className="no-underline"
@@ -80,9 +80,9 @@ const Contact = () => {
         </a>
         </div>
 
-        <div>
+        <div className="dark:text-gray-200">
         Copyright <b>©</b>{" "}
-        <span className="hover:text-gray-400">
+        <span className="hover:text-gray-400 dark:hover:text-gray-500 ">
           {new Date().getFullYear()} Akshay
         </span>{" "}
         . All Rights Reserved

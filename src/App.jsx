@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
@@ -6,10 +7,13 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 
 function App() {
+
+  const [dark, setDark] = useState(false);
+
   return (
     <main className="bg-[#f5f5f7] dark:bg-gray-700 ">
-      <Navbar />
-      <Header />
+      <Navbar dark={dark} setDark={setDark} />
+      <Header dark={dark} />
       <About />
       <Experience />
       <Projects />

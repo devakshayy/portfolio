@@ -2,9 +2,9 @@ import { useState } from "react";
 import MobNavLinks from "./MobNavLinks";
 import { RiMoonFill,  RiSunLine } from "react-icons/ri";
 
-const Navbar = () => {
+const Navbar = ({dark,setDark}) => {
   const [open, setOpen] = useState(false);
-  const [dark, setDark] = useState(false);
+ 
 
   const darkModeHandler = () => {
     setDark(!dark);
@@ -19,29 +19,29 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="p-4 lg:p-6 flex justify-between items-center dark:text-gray-100 z-0 ">
+       <nav className="p-4 lg:p-6 flex justify-between items-center dark:text-gray-100 z-0 ">
       <a href="/">
         <h1 className=" text-2xl lg:text-5xl font-bold">Akshay</h1>
       </a>
       <div className="flex items-center gap-4">
       <ul className="lg:flex hidden gap-6">
         <li>
-          <a href="/" className="text-xl  transition  hover:text-red-700">
+          <a href="/" className="navlinks">
             HOME
           </a>
         </li>
         <li>
-          <a href="#experience" className="text-xl transition hover:text-red-700">
+          <a href="#experience" className="navlinks">
             EXPERIENCES
           </a>
         </li>
         <li>
-          <a href="#projects" className="text-xl transition hover:text-red-700">
+          <a href="#projects" className="navlinks">
             PROJECTS
           </a>
         </li>
         <li>
-          <a href="#contact" className="text-xl transition hover:text-red-700">
+          <a href="#contact" className="navlinks">
             CONTACT
           </a>
         </li>

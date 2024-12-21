@@ -13,6 +13,9 @@
          text-gray-900 bg-[#c7c7c7] hover:text-white 
          transition
     }
+    .navlinks {
+        @apply text-xl  transition  hover:text-red-700 dark:hover:text-red-500
+    }
     /* mobileNavLinks */
     .Navcard-container {
         @apply absolute px-12 py-6 right-0 top-14 backdrop-blur-lg 
