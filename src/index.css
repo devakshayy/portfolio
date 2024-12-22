@@ -3,32 +3,31 @@
 @tailwind utilities;
 
 @layer components {
-    .card-hover {
-        @apply bg-white relative shadow-lg overflow-hidden
+  .card-hover {
+    @apply bg-white relative shadow-lg overflow-hidden
         transform transition-transform duration-300 
-        hover:scale-102 hover:shadow-2xl
-    }
-    .project-btn {
-        @apply shadow-md rounded-2xl p-2 text-sm sm:text-xl
+        hover:scale-102 hover:shadow-2xl;
+  }
+  .project-btn {
+    @apply shadow-md rounded-2xl p-2 text-sm sm:text-xl
          text-gray-900 bg-[#c7c7c7] hover:text-white 
-         transition
-    }
-    .navlinks {
-        @apply text-xl  transition  hover:text-red-700 dark:hover:text-red-500
-    }
-    /* mobileNavLinks */
-    .Navcard-container {
-        @apply absolute px-14 py-6 right-0 top-14 backdrop-blur-lg 
-        h-screen z-10 w-screen
-    }
-    .Navcard-ul {
-        @apply flex flex-col gap-12 items-end 
-        transition-all duration-300 ease-in-out
-    }
-    .links {
-        @apply text-lg text-gray-900 
+         transition;
+  }
+  .navlinks {
+    @apply text-xl  transition  hover:text-red-700 dark:hover:text-red-500;
+  }
+  /* mobileNavLinks */
+  .Navcard-container {
+    @apply absolute px-14 py-6 right-0 top-14 backdrop-blur-lg 
+        h-screen z-10 w-screen;
+  }
+  .Navcard-ul {
+    @apply flex flex-col gap-12 items-end 
+        transition-all duration-300 ease-in-out;
+  }
+  .links {
+    @apply text-lg text-gray-900 
          transition  hover:text-red-700
-         dark:text-gray-100 dark:hover:text-red-500
-    }
+         dark:text-gray-100 dark:hover:text-red-500;
+  }
 }
- 

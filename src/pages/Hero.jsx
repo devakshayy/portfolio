@@ -1,4 +1,4 @@
-const Header = ({ dark }) => {
+const Hero = ({ dark }) => {
   return (
     <header className="grid grid-cols-1 px-4 pt-8 lg:grid-cols-2">
       <div className="sm:py-4 py-3 lg:px-20 md:px-15 flex justify-center items-center">
@@ -86,6 +86,6 @@ const Header = ({ dark }) => {
   );
 };
 
-export default Header;
+export default Hero;
 
 // #374151  grey-700 the background of my project
