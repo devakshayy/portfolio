@@ -33,9 +33,9 @@ const About = () => {
             </div>
           </div>
           <div className="text sm:text-start text-2xl text-center text-gray-600 dark:text-gray-200">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem
-            consectetur adipisicing elit. Obcaecati aspernatur et est soluta,
-            error Obcaecati aspernatur et est soluta, error
+          I'm a challenger by heart and builder by nature.
+          Over the years I have spent time converting designs into pixel-perfect, performant, accessible, and
+          responsive applications/websites. You can simply describe me as a front end developer addict.
           </div>
         </div>
       </div>
