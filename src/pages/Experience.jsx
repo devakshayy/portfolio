@@ -79,7 +79,7 @@ const Experience = () => {
             Backend Development
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-3 justify-items-center lg:gap-2 items-center">
-            <div className="flex justify-between  items-center gap-3 p-5">
+            {/* <div className="flex justify-between  items-center gap-3 p-5">
               <div className="flex flex-col justify-center items-center">
                 <img src="/checkmark.png" className="h-10" />
                 <div className="text-gray-900 text-sm  font-bold">
@@ -89,7 +89,7 @@ const Experience = () => {
                   Basic
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="flex justify-between  items-center gap-3 p-5">
               <div className="flex flex-col justify-center items-center">
                 <img src="/checkmark.png" className="h-10" />
