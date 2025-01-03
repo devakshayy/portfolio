@@ -19,7 +19,7 @@ const Navbar = ({dark,setDark}) => {
   }
 
   return (
-       <nav className="p-4 lg:p-6 flex justify-between items-center dark:text-gray-100 z-0 ">
+       <nav className="py-2 px-4 sticky top-0 z-30 bg-[#f5f5f7] border-b-2 dark:border-gray-600 dark:bg-gray-700  lg:py-2 lg:px-6 flex justify-between items-center dark:text-gray-100 ">
       <a href="/">
         <h1 className=" text-2xl lg:text-5xl font-bold">Akshay</h1>
       </a>
