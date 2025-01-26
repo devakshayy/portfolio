@@ -20,8 +20,7 @@ const Hero = ({ dark }) => {
         </div>
         <div className="flex gap-2  sm:gap-3">
           <a
-            href="Akshay_Paramasivan_Resume.pdf"
-            download={"Akshay_Paramasivan_Resume.pdf"}
+             // download={"Akshay_Paramasivan_Resume.pdf"}
             className="no-underline"
           >
             <button
