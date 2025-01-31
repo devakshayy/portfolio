@@ -19,9 +19,10 @@ const Hero = ({ dark }) => {
           a Frontend Developer
         </div>
         <div className="flex gap-2  sm:gap-3">
-          <a
-             // download={"Akshay_Paramasivan_Resume.pdf"}
-            className="no-underline"
+          <a 
+             href="/Akshay_Resume.pdf"
+             download={"Akshay_Resume.pdf"}
+             className="no-underline"
           >
             <button
               className="card-hover p-2 sm:p-3 rounded-full px-2 sm:px-6 hover:bg-gray-800
