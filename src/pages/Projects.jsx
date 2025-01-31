@@ -17,7 +17,7 @@ const Projects = () => {
             Project One
           </div>
           <div className="grid px-1 sm:px-0 gap-2 sm:gap-4 grid-cols-2 space-x-1">
-          <a className="project-btn" href=""><button >Github</button></a>
+          <a className="project-btn" href="https://github.com/devakshayy/Earths"><button >Github</button></a>
           <a className="project-btn" href="https://www.earthsmaterial.com/"> <button >Live Demo</button></a>
           </div>
         </div>
