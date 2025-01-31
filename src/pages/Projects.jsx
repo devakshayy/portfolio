@@ -50,8 +50,8 @@ const Projects = () => {
             Project Four
           </div>
           <div className="grid px-1 sm:px-0 gap-2 sm:gap-4 grid-cols-2 space-x-1">
-          <a className="project-btn" href="https://github.com/devakshayy/loyverse_clone"><button >Github</button></a>
-          <a className="project-btn" href=""> <button >Live Demo</button></a>
+          <a className="project-btn" href="https://github.com/devakshayy/Loyverse_mini"><button >Github</button></a>
+          <a className="project-btn" href="https://loyverse-mini.vercel.app/"> <button >Live Demo</button></a>
           </div>
         </div>
 
