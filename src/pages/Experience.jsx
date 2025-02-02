@@ -39,7 +39,7 @@ const Experience = () => {
                   JAVASCRIPT
                 </div>
                 <div className="text-gray-500 text-xs  sm:text-sm font-semibold">
-                  Basic
+                Intermediate
                 </div>
               </div>
             </div>
