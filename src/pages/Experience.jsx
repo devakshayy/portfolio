@@ -111,7 +111,18 @@ const Experience = () => {
             <div className="flex justify-between  items-center gap-3 p-5">
               <div className="flex flex-col justify-center items-center">
                 <img src="/checkmark.png" className="h-10" />
-                <div className="text-gray-900 text-sm  font-bold">NODE JS</div>
+                <div className="text-gray-900 text-sm  font-bold">SQL</div>
+                <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">
+                  Intermediate
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-between  items-center gap-3 p-5">
+              <div className="flex flex-col justify-center items-center">
+                <img src="/checkmark.png" className="h-10" />
+                <div className="text-gray-900 text-sm font-bold">
+                  .NET
+                </div>
                 <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">
                   Intermediate
                 </div>
@@ -122,18 +133,7 @@ const Experience = () => {
                 <img src="/checkmark.png" className="h-10" />
                 <div className="text-gray-900 text-sm  font-bold">MONGO DB</div>
                 <div className="text-gray-500 text-xs  sm:text-sm font-semibold">
-                  Intermediate
-                </div>
-              </div>
-            </div>
-            <div className="flex justify-between  items-center gap-3 p-5">
-              <div className="flex flex-col justify-center items-center">
-                <img src="/checkmark.png" className="h-10" />
-                <div className="text-gray-900 text-sm font-bold">
-                  EXPRESS JS
-                </div>
-                <div className="text-gray-500 text-xs  sm:text-sm  font-semibold">
-                  Intermediate
+                  Basic
                 </div>
               </div>
             </div>
